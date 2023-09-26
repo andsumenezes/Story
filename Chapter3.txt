@@ -1,1 +1,31 @@
-Continuacao do Git
+
+$ code Chapter3.txt 
+
+  
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Chapter3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+  
+$ git diff Chapter3.txt
+diff --git a/Chapter3.txt b/Chapter3.txt
+index 82594e8..ac77d8f 100644
+--- a/Chapter3.txt
++++ b/Chapter3.txt
+@@ -1 +1 @@
+-Continuacao do Git
+\ No newline at end of file
++jkljsklshdfkjldshfkjlhsdkfhsadklfaskjdfhlsakjdfhskaljdhfsdfs
+\ No newline at end of file
+
+  
+$ git checkout Chapter3.txt
+Updated 1 path from the index
+
+  
+$ 
