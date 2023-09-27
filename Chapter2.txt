@@ -1,1 +1,14 @@
 Teste para rerverter para versao anterior.
+
+
+#Creating a branch called alien-plot
+Changed to BRANCH ALIEN-PLOT
+
+
+command to create BRANCH
+
+git branch alien-PLOT
+
+command to switch branch
+
+git checkout alien-plot
